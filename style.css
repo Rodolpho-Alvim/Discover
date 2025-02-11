@@ -155,6 +155,12 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+#social-links a svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor; /* Para que a cor se ajuste com a cor do texto */
+}
+
 footer {
   padding: 24px;
   text-align: center;
